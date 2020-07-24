@@ -2,8 +2,11 @@
 
 ```bash
 $ git clone https://github.com/kitazaki/obniz_midi2mqtt_speaker
+$ cd obniz_midi2mqtt_speaker
 $ npm install
 $ vi index.js
-# edit obniz_ID and mqtt settings
+
+# edit Obniz ID and mqtturl settings
+
 $ node index.js
 ```
